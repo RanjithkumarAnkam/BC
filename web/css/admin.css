@@ -1,0 +1,25 @@
+.padding-top-10{
+padding-top:20px;
+}
+.padding-bottom-10{
+padding-bottom:20px;
+}
+.margin-top-5{
+margin-top:5px;
+}
+.font-16{
+	font-size:16px;
+}
+.table-back{
+	background-color:#ff693e;
+}
+.text-center{
+	text-align:center;
+}
+.color-orange{
+	background-color: #ff693e !important;
+    border-color: #ff693e !important;
+}
+.color-white{
+	color:white;
+}
