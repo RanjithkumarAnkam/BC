@@ -12,7 +12,7 @@
 
 			<div class="margin-bottom-10">
 				<div class="col-md-10">
-					<ul class="list-unstyled breadcrumb">
+					<ul class="list-unstyled breadcrumb breadcrumb-custom">
 						<li><a href="javascript: void(0);">Clients</a></li>
 						<li><a href="javascript: void(0);">Add Client</a></li>
 

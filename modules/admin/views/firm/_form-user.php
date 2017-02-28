@@ -202,4 +202,4 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
 <script src="https://cdn3.devexpress.com/jslib/16.2.4/js/dx.all.js"></script>
-<script src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin-firm-user.js"></script>
+<script src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/web/themes/dev-express/js/admin-firm-user.js"></script>
