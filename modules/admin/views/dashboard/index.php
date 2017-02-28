@@ -23,12 +23,19 @@
 			</div>
 
 
-			<section class="panel">
-				<div class="panel-body">
+			
 					<div class="row">
-						<div class="col-md-12 padding-bottom-20">
+						<div class="col-md-12 padding-0">
+						
+						
+							
 							<div class="col-lg-3 col-sm-6 col-xs-12 padding-bottom-10">
-								<label>Search Firms</label> <select class="form-control">
+							<section class="panel">
+							<div class="panel-body">
+								<div class="row">
+								<label class="font-16"><b>Search Firms</b></label> 
+								 
+								<select class="form-control">
 									<option value="1">value 1</option>
 									<option value="2">value 2</option>
 									<option value="3">value 3</option>
@@ -38,10 +45,19 @@
 								<button
 									class="btn btn-info margin-top-5  pull-right color-orange btn-sm"
 									type="button">+ New</button>
+							 </div>
 							</div>
+							</section>
+							</div>
+							
 
 							<div class="col-lg-3 col-sm-6 col-xs-12 padding-bottom-10">
-								<label>Search Firm Users</label> <select class="form-control">
+							<section class="panel">
+							<div class="panel-body">
+								<div class="row">
+								<label class="font-16"><b>Search Firm Users</b></label>
+								
+								 <select class="form-control">
 									<option value="1">value 1</option>
 									<option value="2">value 2</option>
 									<option value="3">value 3</option>
@@ -52,8 +68,16 @@
 									class="btn btn-info margin-top-5 pull-right color-orange btn-sm"
 									type="button">+ New</button>
 							</div>
+							</div>
+							</section>
+							</div>
 							<div class="col-lg-3 col-sm-6 col-xs-12 padding-bottom-10">
-								<label>Search Clients</label> <select class="form-control">
+							<section class="panel">
+							<div class="panel-body">
+								<div class="row">
+								
+								<label class="font-16"><b>Search Clients</b></label>
+								 <select class="form-control">
 									<option value="1">value 1</option>
 									<option value="2">value 2</option>
 									<option value="3">value 3</option>
@@ -64,8 +88,14 @@
 									class="btn btn-info margin-top-5 pull-right color-orange btn-sm" 
 									type="button">+ New</button>
 							</div>
+							</div>
+							</section>
+							</div>
 							<div class="col-lg-3 col-sm-6 col-xs-12 padding-bottom-10">
-								<label>Search Client Users</label> <select class="form-control">
+							<section class="panel">
+							<div class="panel-body">
+								<div class="row">
+								<label class="font-16"><b>Search Client Users</b></label> <select class="form-control">
 									<option value="1">value 1</option>
 									<option value="2">value 2</option>
 									<option value="3">value 3</option>
@@ -76,14 +106,16 @@
 									class="btn btn-info margin-top-5 pull-right color-orange btn-sm"
 									type="button">+ New</button>
 							</div>
+							</div>
+							</section>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				 
 
 
 			<div class="row padding-top-20 padding-bottom-20">
-				<div class="col-md-12">
+				<div class="col-md-12 padding-right-0">
 
 
 					<div class="col-md-7 padding-left-0">
@@ -144,7 +176,7 @@
 
 					</div>
 
-					<div class="col-md-5">
+					<div class="col-md-5 padding-right-0">
 
 						<div class="col-md-12">
 						<section class="panel">
