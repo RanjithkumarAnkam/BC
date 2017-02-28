@@ -20,4 +20,9 @@ class DefaultController extends Controller
 		
         return $this->render('index');
     }
+    
+    public function actionManageadminusers()
+    {
+    	return $this->render('adminusers');
+    }
 }

@@ -1,11 +1,30 @@
-.padding-top-10{
+.padding-top-20{
 padding-top:20px;
 }
-.padding-bottom-10{
+.padding-top-30{
+padding-top:30px;
+}
+
+.padding-bottom-20{
 padding-bottom:20px;
+}
+.padding-bottom-10{
+padding-bottom:10px;
 }
 .margin-top-5{
 margin-top:5px;
+}
+.margin-top-10{
+margin-top:10px;
+}
+.padding-0{
+	padding:0px !important;
+}
+.form-group.form-md-line-input { 
+    margin: 0 0 25px !important; 
+}
+.width-15{
+	width:15%;
 }
 .font-16{
 	font-size:16px;
@@ -22,4 +41,80 @@ margin-top:5px;
 }
 .color-white{
 	color:white;
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.header{
+	font-size:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	 background: #ff693e !important;
+    color: #fff;
+    border-radius: 6px !important;
+}
+.dx-datagrid-headers{
+   padding-right: 0px;
+    background: #ff693e !important;
+    color: #fff !important;
+}
+#gridContainer {
+    height: auto;
+}
+
+#eventContainer {
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    min-height: 50px; 
+    padding: 5px;
+}
+
+#eventContainer .eventLog {
+    margin-top: 5px;
+}
+
+#clearLog {
+    float: right;
+}
+.imp-red{
+	color:red;
+}
+#gridContainer {
+    height: auto;
+}
+
+
+.header-clients{
+	margin-bottom:10px;
+	font-size:16px;
+}
+
+.form-group.form-md-line-input.has-warning label {
+    color: #000000 !important;
+}
+
+.form-group.form-md-line-input.has-warning .form-control.edited:not([readonly])~.form-control-focus:after, .form-group.form-md-line-input.has-warning .form-control.edited:not([readonly])~label:after, .form-group.form-md-line-input.has-warning .form-control.focus:not([readonly])~.form-control-focus:after, .form-group.form-md-line-input.has-warning .form-control.focus:not([readonly])~label:after, .form-group.form-md-line-input.has-warning .form-control.form-control-static~.form-control-focus:after, .form-group.form-md-line-input.has-warning .form-control.form-control-static~label:after, .form-group.form-md-line-input.has-warning .form-control:focus:not([readonly])~.form-control-focus:after, .form-group.form-md-line-input.has-warning .form-control:focus:not([readonly])~label:after{
+     background: #000000 !important;
+}
+.form-group.form-md-line-input.has-warning .form-control {
+    border-bottom: 1px solid #000000 !important;
+}
+.form-group.has-warning .form-control {
+    border-color: #000000 !important;
+}
+
+.has-info .form-control {
+    border-color: #000000 !important;
+}
+.padding-left-0{
+	padding-left:0px;
+}
+.padding-right-0{
+	padding-right:0px;
 }

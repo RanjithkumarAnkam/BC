@@ -4,9 +4,9 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use app\assets\AdminAsset;
+use app\assets\LoginAsset;
 
-AdminAsset::register($this);
+LoginAsset::register($this);
 ?>
 
 <?php $this->beginPage()?>
@@ -32,11 +32,9 @@ AdminAsset::register($this);
 <!-- Clean UI Styles -->
 <link rel="stylesheet" type="text/css"
 	href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/web/themes/clean-ui/common/css/source/main.css">
-<!-- Custom styles -->
 <link rel="stylesheet" type="text/css"
-	href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/css/main-login.css">
-	
-	
+	href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/web/css/site.css">
+
 </head>
 <body class="theme-default">
 	<?php $this->beginBody()?>
