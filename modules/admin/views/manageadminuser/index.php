@@ -1,35 +1,27 @@
 <?php
 ?>
 
-<section class="page-content">
+<section class="page-content padding-0">
 	<div class="page-content-inner">
 
 		<!-- clients -->
 		<div class="dashboard-container">
 
-			<div class="row padding-bottom-20">
-				<div class="col-md-12 header">
-					<b class="padding-left-10">Manage Admin Users</b>
-				</div>
+		<div class=""
+				style="background: white; margin-bottom: 10px; padding: 15px; border-bottom: 1px solid #ddd;">
+				<span style="font-size: 22px;">Manage Admin Users</span>
 			</div>
 
-			<div class="margin-bottom-10">
-
-				<ul class="list-unstyled breadcrumb">
-					<li><a href="javascript: void(0);">Admin</a></li>
-					<li><a href="javascript: void(0);">Manage Users</a></li>
-
-				</ul>
-
-			</div>
-			<div class="col-md-12 padding-0">
+		
+			<div class="col-md-12">
 
 				<div class="row padding-top-20 padding-bottom-20">
 					<div class="col-lg-12">
-						<section class="panel">
-							<div class="panel-heading">
-								<h3>Manage Admin Users</h3>
-							</div>
+						 
+							<div class="widget widget-six">
+							<!-- <div class="widget-header">
+							<strong class="margin-right-10">Manage Admin Users</strong>	 
+							</div>-->
 							<div class="panel-body">
 								<!-- div starting for Manage Clients grid -->
 								<div class="">
@@ -41,7 +33,7 @@
 
 								<!-- div end for Manage Clients grid -->
 							</div>
-						</section>
+						 </div>
 					</div>
 				</div>
 
@@ -58,3 +50,10 @@
 
 <script type="text/javascript"
 	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/adminusers.js"></script>
+	
+	<script>
+	$(document).ready( function (){
+		 $(".dx-toolbar-before").html('<strong class="font-16">Manage Admin Users</strong>');
+	});
+	
+	</script>

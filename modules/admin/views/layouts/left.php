@@ -9,40 +9,49 @@
     <div class="left-menu-inner scroll-pane">
         <ul class="left-menu-list left-menu-list-root list-unstyled">
             
-            <li>
+            <li class="left-menu-list-color-primary">
                 <a class="left-menu-link" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/dashboard">
                     <i class="left-menu-link-icon icmn-home2"><!-- --></i>
                     Dashboard
                 </a>
             </li>
-            <li>
+            <li class="left-menu-list-color-success">
                 <a class="left-menu-link" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/manageadminuser">
                     <i class="left-menu-link-icon fa fa-group"><!-- --></i>
                     Manage Admin Users
                 </a>
             </li>
-             <li>
-                <a class="left-menu-link" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/clients/addclient">
+            
+             <li class="left-menu-list-submenu left-menu-list-color-warning" id="clients_id">
+                <a class="left-menu-link" href="javascript: void(0);">
                     <i class="left-menu-link-icon icmn-books"><!-- --></i>
                     Clients
                 </a>
+                <ul class="left-menu-list list-unstyled" id="clients_id_ul">
+                    <li class="clients_li">
+                        <a class="left-menu-link clients" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/clients/addclient">
+                             Clients 
+                        </a>
+                    </li>
+                    <li class="client_users_li">
+                         <a class="left-menu-link client-users" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/clientusers/addclientuser">
+                            Client Users
+                        </a>
+                    </li>
+                </ul>
             </li>
-              <li>
-                <a class="left-menu-link" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/clientusers/addclientuser">
-                    <i class="left-menu-link-icon icmn-stack3"><!-- --></i>
-                    Client Users
-                </a>
-            </li>
+             
+              
             <li class="left-menu-list-separator "><!-- --></li>
           
-            <li class="left-menu-list-submenu">
+            <li class="left-menu-list-submenu left-menu-list-color-info">
                 <a class="left-menu-link" href="javascript: void(0);">
                     <i class="left-menu-link-icon icmn-files-empty2"><!-- --></i>
                     MasterData
                 </a>
-                <ul class="left-menu-list list-unstyled">
-                    <li>
-                        <a class="left-menu-link" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/masterdata/systembilling">
+                <ul class="left-menu-list list-unstyled"  id="master_data">
+                    <li class="billing_li">
+                        <a class="left-menu-link billing_a" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/masterdata/systembilling">
                             System Billing	
                         </a>
                     </li>

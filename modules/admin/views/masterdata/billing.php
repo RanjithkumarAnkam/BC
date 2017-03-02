@@ -1,44 +1,31 @@
 <?php
 ?>
 
-<section class="page-content">
+<section class="page-content padding-0">
 	<div class="page-content-inner">
 
 		<!-- clients -->
 		<div class="dashboard-container">
-<script>
-		$(document).ready(function(){
-	 $("ul .left-menu-list .list-unstyled").css("display","block");
-	  
-});
-</script>
-			<div class="row padding-bottom-20">
-				<div class="col-md-12 header">
-					<b class="padding-left-10">MasterData</b>
+
+				<div class="col-md-12 col-xs-12 header-main">
+				<div class="col-md-11 col-xs-11">
+					<span style="font-size: 22px;">Master Data</span>
+				</div>
+				<div class="col-md-1 col-xs-1">
+					<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;<i
+						class="fa fa-list menuBtn" aria-hidden="true"></i>
 				</div>
 			</div>
-
-			<div class="margin-bottom-10">
-
-				<ul class="list-unstyled breadcrumb">
-					<li><a href="javascript: void(0);">Masterdata</a></li>
-					<li><a href="javascript: void(0);">System Billing</a></li>
-
-				</ul>
-
-			</div>
-			<div class="col-md-12 padding-0">
+			<div class="col-md-12">
 
 				<div class="row padding-top-20 padding-bottom-20">
 					<div class="col-lg-12">
 						<section class="panel">
-							<div class="panel-heading">
-								<h3>System Billing</h3>
-							</div>
+					
 							<div class="panel-body">
 							<div class="row">
 							<div class="col-md-12 padding-top-10 padding-bottom-10">
-							<div class="col-md-2"><label class="margin-top-10"><b> Select a Module</b></label></div>
+							<div class="col-md-2 padding-left-8"><label class="margin-top-10"><b> Select a Module :</b></label></div>
 								<div class="col-md-4">
 								<select class="form-control">
 								<option>January 2017</option>
@@ -75,3 +62,11 @@
 
 <script type="text/javascript"
 	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/billing.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+	 $("#master_data").css("display","block");
+	 $("#master_data  li.billing_li a.billing_a").css("color","black");
+	 $(".dx-toolbar-before").html('<strong class="font-16">System Billing</strong>');
+});
+</script>
