@@ -34,14 +34,31 @@
                         </a>
                     </li>
                     <li class="client_users_li">
-                         <a class="left-menu-link client-users" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/clientusers/addclientuser">
+                         <a class="left-menu-link client-users" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/clients/addclientuser">
                             Client Users
                         </a>
                     </li>
                 </ul>
             </li>
              
-              
+             <li class="left-menu-list-submenu left-menu-list-color-warning" id="firms_id">
+                <a class="left-menu-link" href="javascript: void(0);">
+                    <i class="left-menu-link-icon icmn-books"><!-- --></i>
+                    Firms
+                </a>
+                <ul class="left-menu-list list-unstyled" id="firms_id_ul">
+                    <li class="firms_li">
+                        <a class="left-menu-link firms" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/firm/add-firm">
+                             Firms 
+                        </a>
+                    </li>
+                    <li class="firm_users_li">
+                         <a class="left-menu-link firm-users" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/firm/firm-user">
+                            Firm Users
+                        </a>
+                    </li>
+                </ul>
+            </li>
             <li class="left-menu-list-separator "><!-- --></li>
           
             <li class="left-menu-list-submenu left-menu-list-color-info">
@@ -55,9 +72,14 @@
                             System Billing	
                         </a>
                     </li>
-                    <li>
-                        <a class="left-menu-link" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/masterdata/systempricing">
+                    <li class="pricing_li">
+                        <a class="left-menu-link pricing_a" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/masterdata/systempricing">
                             System Pricing
+                        </a>
+                    </li>
+                     <li  class="firm_li">
+                        <a class="left-menu-link firm_a" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/masterdata/firmpricing">
+                            Firm Pricing
                         </a>
                     </li>
                 </ul>

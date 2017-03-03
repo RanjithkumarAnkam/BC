@@ -9,7 +9,7 @@
 
 				<div class="col-md-12 col-xs-12 header-main">
 				<div class="col-md-11 col-xs-11">
-					<span style="font-size: 22px;">System Billing</span>
+					<span style="font-size: 22px;">Firm Pricing</span>
 				</div>
 				<div class="col-md-1 col-xs-1">
 					<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;<i
@@ -23,15 +23,30 @@
 						<section class="panel">
 					
 							<div class="panel-body">
+							
+							<div class="row">
+							<div class="col-md-12 padding-top-10 padding-bottom-10">
+							<div class="col-md-2 padding-left-8"><label class="margin-top-10"><b> Firm Name<span class="imp-red">*</span> :</b></label></div>
+								<div class="col-md-4">
+								<input type="text" class="form-control" value="Bentles Yates"/>
+								</div>
+								<div class="col-md-4">
+							<a href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/admin/firm/add-firm" class="btn btn-warning">Firm Details</a>
+								</div>
+								</div>
+								</div>
+								
+								
 							<div class="row">
 							<div class="col-md-12 padding-top-10 padding-bottom-10">
 							<div class="col-md-2 padding-left-8"><label class="margin-top-10"><b> Select a Module :</b></label></div>
 								<div class="col-md-4">
 								<select class="form-control">
-								<option>January 2017</option>
-								<option>Febraury 2017</option>
-								<option>March 2017</option>
-								<option>April 2017</option>
+								  <option selected="" value="Plan Claims Reporting">Plan Claims Reporting</option>
+						          <option value="Population Health Management">Population Health Management</option>
+						          <option value="Stewardship Reporting">Stewardship Reporting</option>
+						          <option value="Plan RFP Quoting Assistant">Plan RFP Quoting Assistant</option>
+						          <option value="Sales Activity Tracking">Sales Activity Tracking</option>
 								</select></div>
 								</div>
 								</div>
@@ -61,12 +76,12 @@
 
 
 <script type="text/javascript"
-	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/billing.js"></script>
+	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/firmpricing.js"></script>
 	
 	<script>
 		$(document).ready(function(){
 	 $("#master_data").css("display","block");
-	 $("#master_data  li.billing_li a.billing_a").css("color","black");
-	 $(".dx-toolbar-before").html('<strong class="font-16">System Billing</strong>');
+	 $("#master_data  li.firm_li a.firm_a").css("color","black");
+	 $(".dx-toolbar-before").html('<strong class="font-16">Firm Billing</strong>');
 });
 </script>

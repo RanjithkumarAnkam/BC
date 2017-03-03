@@ -6,10 +6,9 @@
 
 		<!-- clients -->
 		<div class="dashboard-container">
-
-	<div class="col-md-12 col-xs-12 header-main">
+			<div class="col-md-12 col-xs-12 header-main">
 				<div class="col-md-11 col-xs-11">
-					<span style="font-size: 22px;">Manage Admin Users</span>
+					<span style="font-size: 22px;">Clients</span>
 				</div>
 				<div class="col-md-1 col-xs-1">
 					<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;<i
@@ -17,16 +16,13 @@
 				</div>
 			</div>
 
-		
+
 			<div class="col-md-12">
 
 				<div class="row padding-top-20 padding-bottom-20">
 					<div class="col-lg-12">
-						 
-							<div class="widget widget-six">
-							<!-- <div class="widget-header">
-							<strong class="margin-right-10">Manage Admin Users</strong>	 
-							</div>-->
+						<section class="panel">
+
 							<div class="panel-body">
 								<!-- div starting for Manage Clients grid -->
 								<div class="">
@@ -38,7 +34,7 @@
 
 								<!-- div end for Manage Clients grid -->
 							</div>
-						 </div>
+						</section>
 					</div>
 				</div>
 
@@ -54,11 +50,9 @@
 
 
 <script type="text/javascript"
-	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/adminusers.js"></script>
-	
-	<script>
-	$(document).ready( function (){
-		 $(".dx-toolbar-before").html('<strong class="font-16">Manage Admin Users</strong>');
+	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/clientusersearch.js"></script>
+<script>
+	$(document).ready(function(){
+		 $(".dx-toolbar-before").html('<strong class="font-16">Manage Client Users</strong>');
 	});
-	
 	</script>

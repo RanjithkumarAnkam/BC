@@ -5,7 +5,7 @@
 		<div class="dashboard-container">
 
 			<div class="header-main">
-				<span class="font-22">Clients</span>
+				<span class="font-22">Add / Edit Clients</span>
 			</div>
 
 			 
