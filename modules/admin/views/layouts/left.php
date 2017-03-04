@@ -2,7 +2,7 @@
     <div class="logo-container">
         <a href="" class="logo">
              <img src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/images/logo/benefit-clients-logo.png" alt="Benefit Client Template" />
-            <img class="logo-inverse" src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/build/assets/common/img/logo-inverse.png" alt="Clean UI Admin Template" />
+            <img class="logo-inverse" src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/web/themes/clean-ui/common/img/logo-inverse.png" alt="Clean UI Admin Template" />
             
         </a>
     </div>
