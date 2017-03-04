@@ -30,6 +30,13 @@ class FirmController extends \yii\web\Controller
     	 
     	return $this->render('firm-user');
     }
+
+    public function actionUpdatefirmUser()
+    {
+    
+    	return $this->render('firm-user');
+    }
+
     public function actionManageFirmUser()
     {
     

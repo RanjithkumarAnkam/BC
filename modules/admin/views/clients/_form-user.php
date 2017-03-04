@@ -5,10 +5,10 @@
 	<div class="cui-ecommerce--cart">
 		<div id="cart-checkout" class="cui-wizard">
 			<h3>
-				<i class="icmn-checkmark cui-wizard--steps--icon"></i> <span
+				<i class="icmn-info cui-wizard--steps--icon"></i> <span
 					class="cui-wizard--steps--title">Contact Information</span>
 			</h3>
-			<section>
+			<section class="padding-0">
 				<div class="col-lg-12 col-xs-12 padding-bottom-0 padding-left-0">
 
 
@@ -27,7 +27,7 @@
 						<select class="form-control edited" id="form_control_1">
 							<option>Select Client Company List</option>
 							<option>ABC Company</option>
-						</select> <label for="form_control_1">Client Company<span
+						</select> <label for="form_control_1" class=" margin-bottom-0">Client Company<span
 							class="imp-red">*</span></label>
 					</div>
 
@@ -40,7 +40,7 @@
 									
 					<div
 						class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-						<input type="text" required="" class="form-control borders"> <label>First
+						<input type="text" required="" class="form-control borders"> <label  class="margin-bottom-0">First
 							Name<span class="imp-red">*</span>
 						</label> <span></span>
 					</div>
@@ -52,7 +52,7 @@
 								<div class="col-md-4">
 										<div
 						class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-						<input type="text" required="" class="form-control borders"> <label>Middle
+						<input type="text" required="" class="form-control borders"> <label  class="margin-bottom-0">Middle
 							Name<span class="imp-red">*</span>
 						</label> <span></span>
 					</div>
@@ -66,7 +66,7 @@
 								<div class="col-md-4">
 										<div
 						class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-						<input type="text" required="" class="form-control borders"> <label>Last
+						<input type="text" required="" class="form-control borders"> <label class="margin-bottom-0" >Last
 							Name<span class="imp-red">*</span>
 						</label> <span></span>
 					</div>
@@ -78,7 +78,7 @@
 								<div class="col-md-4">
 									<div
 						class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-						<input type="text" required="" class="form-control borders"> <label>Your
+						<input type="text" required="" class="form-control borders"> <label class="margin-bottom-0">Your
 							Title<span class="imp-red">*</span>
 						</label> <span></span>
 					</div>
@@ -90,7 +90,7 @@
 								<div class="col-md-4">
 									<div
 						class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-						<input type="text" required="" class="form-control borders"> <label>Email
+						<input type="text" required="" class="form-control borders"> <label class="margin-bottom-0">Email
 							Id<span class="imp-red">*</span>
 						</label> <span></span>
 					</div>
@@ -107,7 +107,7 @@
 							<div class="col-md-8">
 								<div
 									class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-									<input type="text" required="" class="form-control borders"> <label>Phone
+									<input type="text" required="" class="form-control borders"> <label class="margin-bottom-0">Phone
 										number<span class="imp-red">*</span>
 									</label> <span></span>
 								</div>
@@ -117,7 +117,7 @@
 
 								<div
 									class="form-group form-md-line-input form-md-floating-label has-success margin-top-10">
-									<input type="text" required="" class="form-control borders"> <label>Ext
+									<input type="text" required="" class="form-control borders"> <label class="margin-bottom-0">Ext
 										No.<span class="imp-red">*</span>
 									</label> <span></span>
 								</div>
@@ -150,10 +150,10 @@
 			</section>
 
 			<h3>
-				<i class="icmn-checkmark cui-wizard--steps--icon"></i> <span
+				<i class="icmn-user-check cui-wizard--steps--icon"></i> <span
 					class="cui-wizard--steps--title">Access Priviledge</span>
 			</h3>
-			<section>
+			<section class="padding-0">
 				<div class="col-lg-12 col-xs-12 padding-bottom-10 padding-left-0">
 
 
@@ -204,10 +204,10 @@
 			</section>
 
 			<h3>
-				<i class="icmn-checkmark cui-wizard--steps--icon"></i> <span
+				<i class="icmn-toggle-off cui-wizard--steps--icon"></i> <span
 					class="cui-wizard--steps--title">Active / Inactive</span>
 			</h3>
-			<section>
+			<section class="padding-0">
 				<div class="col-lg-12 col-xs-12 padding-bottom-10 padding-left-0">
 
 
@@ -252,7 +252,7 @@
 								</div>
 								
 			
-				<div class="col-md-8 margin-top-25">
+				<div class="col-md-8 margin-top-60">
 					<button type="button" class="btn btn-success pull-right">Save & Update</button>
 				</div>
 				
@@ -288,8 +288,7 @@
 	</div>
 </div>
 
- 
-<script
+ <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
 <script src="https://cdn3.devexpress.com/jslib/16.2.4/js/dx.all.js"></script>
 
@@ -301,6 +300,8 @@ $(document).ready(function(){
 	 $("#clients_id_ul").css("display","block");
 	 
 	 $("#clients_id_ul  li.client_users_li a.client-users").css("color","black");
+	 $(".cui-wizard .actions li a[href='#next']").addClass("button");
+	 
 	 $(".dx-toolbar-before").html('<strong class="font-16">Manage Client Users</strong>');
 	 $(".actions").addClass("padding-top-0");
 

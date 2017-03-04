@@ -1,9 +1,33 @@
 
+<section class="page-content  padding-0">
+
+
 <section class="page-content">
+
 	<div class="page-content-inner">
 
 		<!-- clients -->
 		<div class="dashboard-container">
+
+
+			<div class="header-main">
+				<span class="font-22">Update Firms</span>
+			</div>
+
+			 
+			
+			
+			 
+			<div class="col-md-12">
+		
+		 <?= $this->render('_form')?>
+		    
+          </div>
+
+		</div>
+	</div>
+</section>
+
 			<div class="row padding-bottom-20">
 				<div class="col-md-12 header">
 					<b class="padding-left-10">Update Firm</b>
@@ -49,3 +73,4 @@
  </section>
 </section>
 -->
+

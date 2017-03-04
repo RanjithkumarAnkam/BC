@@ -1,35 +1,28 @@
 <?php
 ?>
 
-<section class="page-content">
+<section class="page-content padding-0">
 	<div class="page-content-inner">
 
 		<!-- clients -->
 		<div class="dashboard-container">
 
-			<div class="row padding-bottom-20">
-				<div class="col-md-12 header">
-					<b class="padding-left-10">Clients</b>
+			<div class="col-md-12 col-xs-12 header-main">
+				<div class="col-md-11 col-xs-11">
+					<span style="font-size: 22px;">Clients</span>
+				</div>
+				<div class="col-md-1 col-xs-1">
+					<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;<i
+						class="fa fa-list menuBtn" aria-hidden="true"></i>
 				</div>
 			</div>
-
-			<div class="margin-bottom-10">
-
-				<ul class="list-unstyled breadcrumb">
-					<li><a href="javascript: void(0);">Clients</a></li>
-					<li><a href="javascript: void(0);">Search Result</a></li>
-
-				</ul>
-
-			</div>
-			<div class="col-md-12 padding-0">
+ 
+			<div class="col-md-12">
 
 				<div class="row padding-top-20 padding-bottom-20">
 					<div class="col-lg-12">
 						<section class="panel">
-							<div class="panel-heading">
-								<h3>Manage Client Companies</h3>
-							</div>
+							
 							<div class="panel-body">
 								<!-- div starting for Manage Clients grid -->
 								<div class="">
@@ -58,3 +51,9 @@
 
 <script type="text/javascript"
 	src="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/js/admin/clientsearch.js"></script>
+	
+	<script>
+	$(document).ready(function(){
+		 $(".dx-toolbar-before").html('<strong class="font-16">Manage Client Companies</strong>');
+	});
+	</script>

@@ -25,4 +25,18 @@ class ClientsController extends \yii\web\Controller
     	return $this->render('searchresults');
     }
 
+    public function actionAddclientuser()
+    {
+    	return $this->render('addform-user');
+    }
+    
+    public function actionEditclientuser()
+    {
+    	return $this->render('editform-user');
+    }
+    
+    public function actionClientusersearchresults()
+    {
+    	return $this->render('searchresults-user');
+    }
 }

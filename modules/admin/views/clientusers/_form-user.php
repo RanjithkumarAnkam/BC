@@ -288,7 +288,7 @@
 	</div>
 </div>
 
- 
+ <link rel="stylesheet" type="text/css" href="<?php echo Yii::$app->getUrlManager()->getBaseUrl(); ?>/themes/clean-ui/common/css/source/apps/components.min.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
 <script src="https://cdn3.devexpress.com/jslib/16.2.4/js/dx.all.js"></script>
@@ -301,6 +301,8 @@ $(document).ready(function(){
 	 $("#clients_id_ul").css("display","block");
 	 
 	 $("#clients_id_ul  li.client_users_li a.client-users").css("color","black");
+	 $(".cui-wizard .actions li a[href='#next']").addClass("button");
+	 
 	 $(".dx-toolbar-before").html('<strong class="font-16">Manage Client Users</strong>');
 	 $(".actions").addClass("padding-top-0");
 

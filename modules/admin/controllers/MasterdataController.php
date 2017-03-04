@@ -19,5 +19,10 @@ class MasterdataController extends \yii\web\Controller
     {
     	return $this->render('pricing');
     }
+    
+    public function actionFirmpricing()
+    {
+    	return $this->render('firmpricing');
+    }
 
 }
